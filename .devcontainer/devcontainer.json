@@ -1,0 +1,9 @@
+{
+  "name": "iris-classifier-dev",
+  "dockerFile": "Dockerfile",
+  "context": "..",
+  "remoteUser": "root",
+  "workspaceFolder": "/workspace",
+  "settings": {},
+  "postCreateCommand": ""
+}
