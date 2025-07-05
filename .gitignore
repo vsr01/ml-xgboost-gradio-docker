@@ -1,3 +1,14 @@
-output/
+# Ignore local output models
+/output/
 *.pkl
+*.joblib
+
+# Python + container junk
 __pycache__/
+*.py[cod]
+*.ipynb_checkpoints
+
+# VS Code + Docker
+.vscode/
+.dockerignore
+.env
